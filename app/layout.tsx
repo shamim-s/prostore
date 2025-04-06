@@ -22,7 +22,7 @@ export default function RootLayout({
       <body className={`${inter.className} antialiased`}>
         <ThemeProviderWrapper>{children}</ThemeProviderWrapper>
       </body>
-      <Footer />
+      {/* <Footer /> */}
     </html>
   );
 }
